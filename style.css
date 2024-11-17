@@ -59,7 +59,7 @@ aside{
 }
 .FAB{
     color: black;
-    font-size: larger;
+    font: normal 15pt arial;
 }
 footer{
     background: #000;
