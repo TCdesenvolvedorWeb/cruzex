@@ -11,13 +11,16 @@ html{
 body{
     height: 100vh;
     position: relative;
-    float: left;}
+
+}
+
 .cabeçalho{
     max-width: 900px;
     min-width: 320px;
     height: 110px;
     padding: 10px 5px;
     background-color: #0b0715;
+    
 }
 .cabeçalho picture img{
     width: 100%;
@@ -65,11 +68,18 @@ aside{
 
 /* ---------------------------MAIN------------------------------ */
 
+
+.redirecionador{
+    height: 300px;
+    text-align: center;
+}
+
+
 /* ---------------------------FOOTER----------------------------- */
 
 footer{
     text-align: center;
-    color: rgb(8, 61, 61);
+    color: rgb(186, 226, 226);
     background: #0b0715;
     position: relative;
     height: 150px;
@@ -96,15 +106,16 @@ footer{
 
 /* ---------------------RESPONSIVIDADE------------------- */
 
-@media (max-width: 576){
+@media (max-width: 576px){
     .cabeçalho nav{
         float: none;
     
     }
     .cabeçalho nav li{
-        display: block;
+        display: inline-block;
     }
-    article{
-        
+    main article{
+        font: normal 12pt arial;
     }
+
 }
