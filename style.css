@@ -50,7 +50,6 @@ main{
     max-width: 900px;
     min-width: 320px;
     height: 599px;
-    margin: 0 auto;
     background: url(imagens/F-16r.png) no-repeat;
 }
 
@@ -63,7 +62,7 @@ article{
 
 aside{
     text-align: center;
-}
+    }
 
 
 /* ---------------------------MAIN------------------------------ */
@@ -88,18 +87,23 @@ footer{
 .fa-instagram{
     color: orange;
 }
+
 .fa-instagram:hover {
     color: blue;
 }
+
 .fa-whatsapp{
     color: green;
 }
+
 .fa-whatsapp:hover {
    color: blue;
 }
+
 .fa-github{
     color: white;
 }
+
 .fa-github:hover{
     color: blue;
 }
@@ -116,6 +120,12 @@ footer{
     }
     main article{
         font: normal 12pt arial;
+    }
+    main{
+        margin-bottom: 50px;
+    }
+    aside{
+        color: white;
     }
 
 }
