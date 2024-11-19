@@ -10,16 +10,17 @@ html{
 
 body{
     height: 100vh;
-    width: 100%;
+    position: relative;
+
 }
 
 .cabeçalho{
-    max-width: 100%;
+    position: sticky;
+    max-width: 900px;
     min-width: 320px;
     height: 110px;
     padding: 10px 5px;
     background: #0b0715;
-
     
 }
 .cabeçalho picture img{
@@ -51,7 +52,6 @@ main{
     min-width: 320px;
     height: 599px;
     background: url(imagens/F-16r.png) no-repeat;
-    margin: 0 auto;
 }
 
 article{
@@ -123,9 +123,7 @@ footer{
         font: normal 12pt arial;
     }
     main{
-        max-width: 100%;
-        margin: 0 auto;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
     aside{
         color: white;
