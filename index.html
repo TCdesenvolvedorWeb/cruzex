@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="src/css/Awesome.min.css">
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/areas.css">
+    <link rel="stylesheet" href="src/css/slider.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,54 +43,34 @@
         
         <section class="fotos">
             
-            <figure>
-                <img src="src/imagens/F-16r.png" alt="variados">
+            <figure class="slider">
+                <img class="seta" id="grippen-voltar" src="src/imagens/seta-esquerda.png" alt="seta voltar">
 
-                <p> Lorem ipsum dolor sit amet.</p>
+                <img class="grippen mostrar" src="./src/imagens/Grippen.png" alt="Grippen">
+                <img class="grippen" src="src/imagens/Grippen1.png" alt="Grippen">
+                <img class="grippen" src="src/imagens/Grippen2.png" alt="Grippen">
+
+                <img class="seta avançar" id="grippen-avançar" src="src/imagens/seta direita.png" alt="seta avançar">
             </figure>
-            
-            <figure>
-                <img src="./src/imagens/Grippen.png" alt="Grippen">
-
-                <p>Grippen no hangarete</p>
-            </figure>
-
-            <figure>
-                <img src="src/imagens/Grippen1.png" alt="Grippen">
-
-                <p>Grippen no hangarete ao por do sol</p>
-            </figure>
-
-            <figure>
-                <img src="src/imagens/Grippen2.png" alt="Grippen">
-
-                <p>Lorem ipsum dolor sit amet</p>
-            </figure>
-
 
             <figure>
                 <img src="src/imagens/IMG-20241114-WA0022.jpg" alt="Grippen">
 
                 <p>Lorem ipsum dolor sit amet</p>
             </figure>
+            
+            <figure class="slider">
 
-            <figure>
-                <img src="src/imagens/IMG-20241114-WA0028.jpg" alt="Grippen">
+                <img class="seta" id="A-29-voltar" src="src/imagens/seta-esquerda.png" alt="seta voltar">
 
-                <p>Lorem ipsum dolor sit amet</p>
+                <img class="A-29 mostrarA-29" src="src/imagens/IMG-20241114-WA0028.jpg" alt="A-29">
+                <img class="A-29" src="src/imagens/IMG-20241114-WA0029.jpg" alt="A-29">
+                <img class="A-29" src="src/imagens/IMG-20241114-WA0030.jpg" alt="A-29">
+
+                <img class="seta avançar" id="A-29-avançar" src="src/imagens/seta direita.png" alt="seta avançar">
+
             </figure>
 
-            <figure>
-                <img src="src/imagens/IMG-20241114-WA0029.jpg" alt="Grippen">
-
-                <p>Lorem ipsum dolor sit amet</p>
-            </figure>
-
-            <figure>
-                <img src="src/imagens/IMG-20241114-WA0030.jpg" alt="Grippen">
-
-                <p>Lorem ipsum dolor sit amet</p>
-            </figure>
         </section>
    
     </main>
@@ -115,5 +96,8 @@
             <a class="link" href="https://www.instagram.com/rudiger_0/profilecard/?igsh=aWJneWhoczJ3bTF6" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
         </address>
     </footer>
+
+    <script src="src/js/grippen.js"></script>
+    <script src="src/js/A-29.js"></script>
 </body>
 </html>

@@ -1,0 +1,30 @@
+.slider {
+    display: flex;
+    align-items: center;
+}
+
+.slider .seta {
+    height: 40px;
+    margin: 5px;
+}
+
+.slider .seta:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.grippen {
+    display: none;
+}
+
+.slider .grippen.mostrar {
+    display: block;
+}
+
+.A-29 {
+    display: none;
+}
+
+.slider .A-29.mostrarA-29 {
+    display: block;
+}
