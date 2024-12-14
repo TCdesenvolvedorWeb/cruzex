@@ -39,6 +39,7 @@
 
 .formulário .dados:last-child {
     margin-top: 30px;
+    border: none;
 }
 
 #cadastrar {
@@ -85,5 +86,15 @@
     cursor: pointer;
     color: #fff;
     background-color: #000;
+}
+
+@media (max-width: 500px) {
+    .formulário {
+        width: 80vw;
+    }
+
+    .formulário .dados {
+        width: 70vw;
+    }
 }
 

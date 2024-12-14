@@ -59,17 +59,6 @@ nav .navegação{
     cursor: pointer;
 }
 
-.informações{
-    max-width: 150px;
-    font-size: 13px;
-    line-height: 20px;
-    padding: 10px;
-}
-
-.informações p{
-    margin-bottom: 20px;
-}
-
 .rolagem .fotos {
     display: flex;
     align-items: center;

@@ -4,8 +4,6 @@ const bntCadastreSe = document.getElementById('Cadastre-se');
 const formulário = document.getElementById('seção');
 const bntfecharFormulário = document.getElementById('fechar')
 
-console.log(bntfecharFormulário);
-
 bntCadastreSe.addEventListener('click', () => abrirFormulário() )
 
 function abrirFormulário() {
@@ -24,7 +22,6 @@ function fecharFormulário() {
 
 cadastrar.addEventListener('click', () => { 
     validação();
-    // enviarFormulário(cadastrar , valido);
 })
 
 function validação() {
@@ -38,21 +35,3 @@ function validação() {
         }
     })
 }
-
-
-/*
-if (cadastrar){
-    var valido = true;
-}
-let enviarFormulário = (cadastrar , valido) => {
-    return new Promise((resolve, reject) => {
-        if (cadastrar && valido) {
-            alert('Cadastro realizado com sucesso.')
-            resolve()
-        } else {
-            alert('É necessário preencher todos os campos!')
-            reject()
-        }
-    })
-}
-*/
